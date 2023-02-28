@@ -1,0 +1,57 @@
+html {
+  background: url("BRIGHT WHITE LIGHT 1080p_2 2.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    background: black;
+}
+
+p {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  position: absolute;
+  text-align: center;
+  color: white;
+    top: 75%;
+  left: 50%;
+
+}
+
+.contact-details {
+
+  animation: fadeIn 5s;
+  xposition: relative;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
